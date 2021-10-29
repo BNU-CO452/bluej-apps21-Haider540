@@ -1,0 +1,200 @@
+
+
+ Final Course Grade = F
+haider.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ co452: 	programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co452: 	programming concepts	  15	56	C
+
+ co452: 	programming concepts	  15	56	C
+
+
+ Final Course Grade = F
+Student john = new Student();
+Student bob = new Student();
+Student nemo = new Student();
+Module co453 = new Module("co453", "apps programming");
+john.enrol(cybersecurity);
+ModuleMark johnmodulemark = new ModuleMark(co453);
+johnmodulemark.getCredit()
+    returned int 0
+johnmodulemark.getCredit()
+    returned int 0
+johnmodulemark.getValue()
+    returned int 0
+john.addMark(johnmodulemark);
+john.enrol(cybersecurity);
+john.addMark(johnmodulemark);
+john.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ co452: 	programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co453: 	apps programming	  0	0	NS
+
+ co453: 	apps programming	  0	0	NS
+
+
+ No Final Course Grade Yet!
+john.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ co452: 	programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co453: 	apps programming	  0	0	NS
+
+ co453: 	apps programming	  0	0	NS
+
+
+ No Final Course Grade Yet!
+johnmodulemark.setMark(69);
+Module co450 = new Module("co450", "computer architercture");
+bob.awardTestMarks();
+ModuleMark bobsmodulemark = new ModuleMark(co450);
+bob.addMark(bobsmodulemark);
+bob.enrol(cybersecurity);
+bobsmodulemark.setMark(40);
+bob.addMark(bobsmodulemark);
+bob.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ co452: 	programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co450: 	computer architercture	  15	40	D
+
+ co450: 	computer architercture	  15	40	D
+
+
+ Final Course Grade = F
+Module co456 = new Module("co456", "web devolopment");
+ModuleMark nemosmodulemark = new ModuleMark(co456);
+nemosmodulemark.setMark(57);
+nemo.addMark(nemosmodulemark);
+nemo.enrol(cybersecurity);
+haider.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ co452: 	programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co452: 	programming concepts	  15	56	C
+
+ co452: 	programming concepts	  15	56	C
+
+
+ Final Course Grade = F
+john.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ co452: 	programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co453: 	apps programming	  15	69	B
+
+ co453: 	apps programming	  15	69	B
+
+
+ Final Course Grade = F
+bob.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ co452: 	programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co450: 	computer architercture	  15	40	D
+
+ co450: 	computer architercture	  15	40	D
+
+
+ Final Course Grade = F
+nemo.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ co452: 	programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ co456: 	web devolopment	  15	57	C
+
+
+ Final Course Grade = F
+cybersecurity.printModules();
+
+ co452: 	programming concepts	  15 credits

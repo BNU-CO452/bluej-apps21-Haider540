@@ -1,0 +1,117 @@
+Student haider = new Student();
+Course cybersecurity = new Course();
+Module co452 = new Module("CO452", "Programming Concepts");
+ModuleMark haiders452mark = new ModuleMark(co452);
+haider.enrol(cybersecurity);
+cybersecurity.addModule(co452);
+haiders452mark.setMark(64);
+haider.addMark(haiders452mark);
+haider.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: 	Programming Concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	64	B
+
+
+ Final Course Grade = F
+Module co450 = new Module("CO450", "Computer Architecture");
+ModuleMark haider450mark = new ModuleMark(co450);
+cybersecurity.addModule(co450);
+haider450mark.setMark(49);
+haider.addMark(haider450mark);
+haider.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: 	Programming Concepts	  15 credits
+ CO450: 	Computer Architecture	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	64	B
+
+ CO450: 	Computer Architecture	  15	49	D
+
+
+ Final Course Grade = F
+Module co456 = new Module("CO456", "Webdev");
+ModuleMark haiders456mark = new ModuleMark(co456);
+cybersecurity.addModule(co456);
+haiders456mark.setMark(60);
+haider.addMark(haiders456mark);
+haider.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: 	Programming Concepts	  15 credits
+ CO450: 	Computer Architecture	  15 credits
+ CO456: 	Webdev	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	64	B
+
+ CO450: 	Computer Architecture	  15	49	D
+
+ CO456: 	Webdev	  15	60	B
+
+
+ Final Course Grade = D
+Module co454 = new Module("CO454", "Digi Tech");
+ModuleMark haiderco454mark = new ModuleMark(co454);
+cybersecurity.addModule(co454);
+haiderco454mark.setMark(70);
+haider.addMark(haiderco454mark);
+haider.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Haider 22130768
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: 	Programming Concepts	  15 credits
+ CO450: 	Computer Architecture	  15 credits
+ CO456: 	Webdev	  15 credits
+ CO454: 	Digi Tech	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts	  15	64	B
+
+ CO450: 	Computer Architecture	  15	49	D
+
+ CO456: 	Webdev	  15	60	B
+
+ CO454: 	Digi Tech	  15	70	A
+
+
+ Final Course Grade = B
