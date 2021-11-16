@@ -28,6 +28,24 @@ public class StockList
     {
         stock.add(item);
     }
+    
+     /**
+     * remove a product to the list.
+     * @param item The product item to be added.
+     */
+    public void remove(int productID)
+    {
+    Product product = findProduct(productID);
+    if(product !=null)
+    {
+        System.out.println(product+ "has been removed");   
+        stock.remove(product); 
+    }      
+    else
+    {
+        System.out.println("no item with that ID exist");
+    }
+    }
 
     /**
      * A method to buy a single quantity of the product
@@ -48,7 +66,7 @@ public class StockList
         Product product = findProduct(productID);
         if(product != null) 
         {
-            if(product.getQuantity() > 1000)
+            if(product.getQuantity() < 100)
             {
                 product.increaseQuantity(amount);
                 System.out.println(" Bought " + amount + " of " + product.getName());
@@ -89,7 +107,7 @@ public class StockList
      */
     public void sellProduct(int productID)
     {
-        sellProduct(productID, 1);
+        sellProduct(productID, 105);
     }
 
     /**
@@ -135,6 +153,9 @@ public class StockList
      */
     public int numberInStock(int productID)
     {
+        Product product = findProduct(productID);
+        if(product !=null)
+             System.out.println(product.toString());
         return 0;
     }
 
@@ -176,4 +197,37 @@ public class StockList
         System.out.println(" ====================");
         System.out.println();
     }
+    
+     /**
+     * To look for product
+     */
+    public void searchProducts(String phrase)
+    {
+        for(Product product : stock)
+        {
+            if(product.getName().startsWith(phrase) == true)
+            {
+                System.out.println(product);
+            }
+        }
+    }
+    
+     /**
+     * To show product under 5 amount
+     */
+    public void stockLower5(String phrase)
+    {
+        for(Product product : stock)
+        {
+            if(product.getQuantity() < 5 )
+            {
+                System.out.println(" item Below 5 ");
+                System.out.println(" ------------- ");
+                System.out.println(product);
+            }
+        }
+    }
+    
+    
+    
 }

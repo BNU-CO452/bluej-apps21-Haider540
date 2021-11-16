@@ -16,25 +16,25 @@ public class StockDemo
      * Create a StockManager and populate it with at least
      * 10 sample products.
      */
-    public StockDemo()
+    public StockDemo(StockList stock)
     {
-        this.stock = new StockList();
+        this.stock = stock;
         
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
         
         stock.add(new Product(101, "farcry 4"));
         stock.add(new Product(102, "fifa 22"));
-        stock.add(new Product(103, "call of duty"));
-        stock.add(new Product(104, "warezone"));
+        stock.add(new Product(103, "call of duty 2"));
+        stock.add(new Product(104, "call of duty warzone"));
         stock.add(new Product(105, "minecraft"));
-        stock.add(new Product(106, "WWE"));
-        stock.add(new Product(107, "super mario"));
-        stock.add(new Product(108, "forza horizon"));
+        stock.add(new Product(106, "WWE 2k17"));
+        stock.add(new Product(107, "super mario 64"));
+        stock.add(new Product(108, "forza horizon 5"));
         stock.add(new Product(109, "rocket league"));
-        stock.add(new Product(110, "battlefield"));
+        stock.add(new Product(110, "battlefield 2042"));
         
-        runDemo();
+        
     }
     
     /**
@@ -59,29 +59,29 @@ public class StockDemo
     
     private void buyProducts()
     {
-        stock.buyProduct(101, 50);
-        stock.buyProduct(102, 40);
-        stock.buyProduct(103, 20);
-        stock.buyProduct(104, 10);
-        stock.buyProduct(105, 80);
-        stock.buyProduct(106, 90);
-        stock.buyProduct(107, 78);
-        stock.buyProduct(108, 56);
-        stock.buyProduct(109, 87);
-        stock.buyProduct(110, 69);
+        stock.buyProduct(101, 3);
+        stock.buyProduct(102, 4);
+        stock.buyProduct(103, 6);
+        stock.buyProduct(104, 7);
+        stock.buyProduct(105, 10);
+        stock.buyProduct(106, 5);
+        stock.buyProduct(107, 3);
+        stock.buyProduct(108, 2);
+        stock.buyProduct(109, 1);
+        stock.buyProduct(110, 4);
     }
 
     private void sellProducts()
     {
-        stock.sellProduct(101, 20);
-        stock.sellProduct(102, 30);
-        stock.sellProduct(103, 4);
-        stock.sellProduct(104, 2);
-        stock.sellProduct(105, 22);
-        stock.sellProduct(106, 20);
-        stock.sellProduct(107, 23);
-        stock.sellProduct(108, 23);
-        stock.sellProduct(109, 21);
-        stock.sellProduct(110, 20);
+        stock.sellProduct(101, 1);
+        stock.sellProduct(102, 2);
+        stock.sellProduct(103, 3);
+        stock.sellProduct(104, 4);
+        stock.sellProduct(105, 6);
+        stock.sellProduct(106, 1);
+        stock.sellProduct(107, 2);
+        stock.sellProduct(108, 1);
+        stock.sellProduct(109, 1);
+        stock.sellProduct(110, 3);
     }    
 }
