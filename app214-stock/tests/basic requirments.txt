@@ -1,0 +1,101 @@
+quite
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > add
+enter ID> 
+111
+enter name of product> 
+Your input is blank!
+
+enter name of product> fifa 10
+product fifa 10with ID111added
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > print
+
+ haider's Stock List
+ ====================
+
+ ID 101: farcry 4 stock level: 0
+ ID 102: fifa 22 stock level: 0
+ ID 103: call of duty 2 stock level: 0
+ ID 104: call of duty warzone stock level: 0
+ ID 105: minecraft stock level: 0
+ ID 106: WWE 2k17 stock level: 0
+ ID 107: super mario 64 stock level: 0
+ ID 108: forza horizon 5 stock level: 0
+ ID 109: rocket league stock level: 0
+ ID 110: battlefield 2042 stock level: 0
+ ID 111: fifa 10 stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > remove
+enter ID> 
+111
+ ID 111: fifa 10 stock level: 0has been removed
+product with id111has been added
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > print
+
+ haider's Stock List
+ ====================
+
+ ID 101: farcry 4 stock level: 0
+ ID 102: fifa 22 stock level: 0
+ ID 103: call of duty 2 stock level: 0
+ ID 104: call of duty warzone stock level: 0
+ ID 105: minecraft stock level: 0
+ ID 106: WWE 2k17 stock level: 0
+ ID 107: super mario 64 stock level: 0
+ ID 108: forza horizon 5 stock level: 0
+ ID 109: rocket league stock level: 0
+ ID 110: battlefield 2042 stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+
+Please enter your choice > 

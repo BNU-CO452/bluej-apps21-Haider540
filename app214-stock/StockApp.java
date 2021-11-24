@@ -4,24 +4,24 @@
  * stock manager so that users can add, edit,
  * print and remove stock products
  *
- * @author Student Name
+ * @author Haider Imam
  * @version 0.1
  */
 public class StockApp
 {
     private InputReader reader;
-    
-    //private ProductList stock;
-    
+
+    private StockList stock;
+
     /**
      * Constructor for objects of class StockApp
      */
     public StockApp()
     {
         reader = new InputReader();
-        
-        //stock = new ProductList();
-        //StockDemo demo = new StockDemo(stock);
+
+        stock = new StockList();
+        StockDemo demo = new StockDemo(stock);
     }
 
     /**
@@ -31,32 +31,48 @@ public class StockApp
     public void run()
     {
         boolean finished = false;
-        
+
         while(!finished)
         {
             printHeading();
             printMenuChoices();
-           
+
             String choice = reader.getString("Please enter your choice > ");
-            
+
             finished = executeChoice(choice.toLowerCase());
         }
     }
-    
+
     private boolean executeChoice(String choice)
     {
-        if(choice.equals("quit"))
+        if(choice.equals("quit")) 
         {
             return true;
         }
         else if(choice.equals("print"))
         {
-            //stock.print();
+            stock.print();
+        }
+        else if (choice.equals("add"))
+        {
+            int id = reader.getInt("enter ID> ");
+            String name = reader.getString ("enter name of product> ");
+            Product product = new Product(id,name);
+            stock.add(product);
+            System.out.println("product " +product.getName()+ "with ID"
+                +product.getID()+ "added");
+        }
+        else if (choice.equals("remove"))
+        {
+            int id = reader.getInt("enter ID> ");
+            stock.remove(id);
+            System.out.println("product with id" +id+ "has been added");
         }
         
+
         return false;
     }
-   
+
     /**
      * Print out a menu of operation choices
      */
@@ -69,7 +85,7 @@ public class StockApp
         System.out.println("    Quit:       Quit the program");
         System.out.println();        
     }
-    
+
     /**
      * Print the title of the program and the authors name
      */
@@ -77,7 +93,7 @@ public class StockApp
     {
         System.out.println("********************************");
         System.out.println("  App21-04: Stock Application ");
-        System.out.println("      by Student Name");
+        System.out.println("      by Haider Imam");
         System.out.println("********************************");
     }
 }
