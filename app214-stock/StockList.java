@@ -124,25 +124,25 @@ public class StockList
             if(product.getQuantity() > 0 && product.getQuantity() > amount)
             {
                 product.decreaseQuantity(amount);
-                System.out.println(" sold " + amount + " of " + product.getName());
-
+                System.out.println("You have successfully sold " + amount + " the " + product.getName());
             }
-            else if (product.getQuantity() == 0)
+            else if(product.getQuantity() <= amount)
             {
-                System.out.println("the product" + product.getName() + 
-                    "is out of stock");
+                System.out.println(product.getName() + " Error, we only have " + product.getQuantity());
             }
             else
             {
-                System.out.println("can't sell" + amount + " of " + product.getName() + 
-                    "because only have " + product.getQuantity()); 
+                // printout message
+                System.out.println(product.getName() + " is unfortunately out of stock");
             }
         }
         else
         {
-            System.out.println("couldn't find product");
+            // printout message
+            System.out.println(" is not available here");
         }
-    }    
+
+    }   
 
     /**
      * Locate a product with the given ID, and return how
@@ -155,8 +155,10 @@ public class StockList
     {
         Product product = findProduct(productID);
         if(product !=null)
-            System.out.println(product.toString());
-        return 0;
+        {
+            return product.getQuantity();
+        }
+        else return 0;
     }
 
     /**
@@ -215,14 +217,27 @@ public class StockList
     /**
      * To show product under 5 amount
      */
-    public void stockLower5(String phrase)
+    public void lowstock(int amount)
     {
         for(Product product : stock)
         {
-            if(product.getQuantity() < 5 )
+            if(product.getQuantity() <= amount )
             {
-                System.out.println(" item Below 5 ");
+                System.out.println(" item Below amount ");
                 System.out.println(" ------------- ");
+                System.out.println(product);
+            }
+        }
+    }
+ 
+    public void reStock(int amount, int quantity)
+    {
+        for(Product product : stock)
+        {
+            if(product.getQuantity() <= amount )
+            {
+                int id = product.getID();
+                buyProduct(id,quantity);
                 System.out.println(product);
             }
         }

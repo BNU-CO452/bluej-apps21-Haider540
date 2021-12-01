@@ -68,8 +68,55 @@ public class StockApp
             stock.remove(id);
             System.out.println("product with id" +id+ "has been added");
         }
-        
+         
+        else if(choice.equals("buy"))
+        {
+            int id = reader.getInt("enter ID you want to buy");
+            int amount = reader.getInt ("Enter amount you want to buy (1-10)");
+            /*delete if no work code below for 1-10*/
+            if(1 <= amount && amount <= 10)
+            {
+                stock.buyProduct(id,amount);
+                System.out.println("Successfully Purchased" +id+" "+amount+ ",much-obliged");
 
+            }
+            else
+            {
+                System.out.println("Purchase denied, incorrect information");
+            }
+        }
+        else if(choice.equals("sell"))
+        {
+            int id = reader.getInt("Please enter ID you want to sell");
+            int amount = reader.getInt ("Please enter amount you want to sell (1-10)");
+            /*delete if no work, code below for 1-10*/
+            if(1 <= amount && amount <= 10)
+            {
+                stock.sellProduct(id,amount);
+                System.out.println("Successfully Sold" +id+ " "+amount+ ",much-obliged");
+            }
+        }
+        else if(choice.equals("search"))
+        {
+            String phrase = reader.getString("Pleas enter name of Product you wish to search for");
+            stock.searchProducts(phrase);
+        }
+        else if(choice.equals("lowstock"))
+        {
+            int amount = reader.getInt("enter quantity you'd want to list (limit 1-5)");
+            if(1 <= amount && amount <=amount)
+            {
+                stock.lowstock(amount);
+            }
+        }
+        else if(choice.equals("restock"))
+        {
+            int amount = reader.getInt("enter threshold you'd want to restock");
+            int quantity = reader.getInt("enter restock amount (1-10)");
+            {
+                stock.reStock(amount,quantity);
+            }
+        }
         return false;
     }
 
@@ -83,7 +130,11 @@ public class StockApp
         System.out.println("    Remove:     Remove an old product");
         System.out.println("    Print:      Print all products");
         System.out.println("    Quit:       Quit the program");
-        System.out.println();        
+        System.out.println("    Buy:        Buy a product(s)");
+        System.out.println("    Sell:       Sell a product(s)");
+        System.out.println("    Search:     Searches for a product");
+        System.out.println("    lowstock: Lists stock below set amount");
+        System.out.println("    Restock:  Re-stock up a product");     
     }
 
     /**
