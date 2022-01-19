@@ -1,3 +1,5 @@
+import java.util.Scanner;
+import java.util.HashMap;
 
 /**
  * This contains all the possible command words
@@ -6,19 +8,67 @@
  * @author Derek Peacock & Nicholas Day
  * @version 25-08-2021
  */
-public enum CommandWords
+public class CommandWords
 {
-    GO   ("go","Exit location in <direction>"),
-    TAKE ("take", "Take <item> from location"),
-    HELP ("help", "List all available commands"),
-    QUIT ("quit", "End the game");
-    
-    public final String word;
-    public final String description;
-    
-    CommandWords(String word, String description)
+    // A mapping between a command word and the CommandWord
+    // associated with it.
+    private HashMap<String, CommandWord> validCommands;
+
+    /**
+     * Constructor - initialise the command words.
+     */
+    public CommandWords()
     {
-        this.word = word;
-        this.description = description;
+        validCommands = new HashMap<>();
+        
+        for(CommandWord command : CommandWord.values()) 
+        {
+            if(command != CommandWord.UNKNOWN) 
+            {
+                validCommands.put(command.toString(), command);
+            }
+        }
+    }
+
+    /**
+     * Find the CommandWord associated with a command word.
+     * @param commandWord The word to look up.
+     * @return The CommandWord correspondng to commandWord, or UNKNOWN
+     *         if it is not a valid command word.
+     */
+    public CommandWord getCommandWord(String commandWord)
+    {
+        CommandWord command = validCommands.get(commandWord);
+        
+        if(command != null) 
+        {
+            return command;
+        }
+        else 
+        {
+            return CommandWord.UNKNOWN;
+        }
+    }
+    
+    /**
+     * Check whether a given String is a valid command word. 
+     * @return true if it is, false if it isn't.
+     */
+    public boolean isCommand(String aString)
+    {
+        return validCommands.containsKey(aString);
+    }
+
+    /**
+     * Print all valid commands to System.out.
+     */
+    public void showAll() 
+    {
+        for(String command : validCommands.keySet()) 
+        {
+            System.out.print(command + "  ");
+        }
+        
+        System.out.println();
     }
 }

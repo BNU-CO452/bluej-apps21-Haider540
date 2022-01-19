@@ -1,0 +1,200 @@
+    Restock:  Re-stock up a product
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > remove
+enter ID> 
+205
+no item with that ID exist
+product with id205has been added
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    lowstock: Lists stock below set amount
+    Restock:  Re-stock up a product
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > buy
+enter ID you want to buy
+103
+Enter amount you want to buy (1-10)
+4
+ Bought 4 of call of duty 2
+Successfully Purchased103 4,much-obliged
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    lowstock: Lists stock below set amount
+    Restock:  Re-stock up a product
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > sell
+Please enter ID you want to sell
+103
+Please enter amount you want to sell (1-10)
+4
+call of duty 2 Error, we only have 4
+Successfully Sold103 4,much-obliged
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    lowstock: Lists stock below set amount
+    Restock:  Re-stock up a product
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > search
+Pleas enter name of Product you wish to search for105
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    lowstock: Lists stock below set amount
+    Restock:  Re-stock up a product
+Please enter your choice > search
+Pleas enter name of Product you wish to search forminecraft
+ ID 105: minecraft stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    lowstock: Lists stock below set amount
+    Restock:  Re-stock up a product
+Please enter your choice > lowstock
+enter quantity you'd want to list (limit 1-5)
+1
+ item Below amount 
+ ------------- 
+ ID 101: farcry 4 stock level: 0
+ item Below amount 
+ ------------- 
+ ID 102: fifa 22 stock level: 0
+ item Below amount 
+ ------------- 
+ ID 105: minecraft stock level: 0
+ item Below amount 
+ ------------- 
+ ID 106: WWE 2k17 stock level: 0
+ item Below amount 
+ ------------- 
+ ID 107: super mario 64 stock level: 0
+ item Below amount 
+ ------------- 
+ ID 108: forza horizon 5 stock level: 0
+ item Below amount 
+ ------------- 
+ ID 109: rocket league stock level: 0
+ item Below amount 
+ ------------- 
+ ID 110: battlefield 2042 stock level: 0
+ item Below amount 
+ ------------- 
+ ID 111: candycrush stock level: 0
+ item Below amount 
+ ------------- 
+ ID 103: ff5 stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    lowstock: Lists stock below set amount
+    Restock:  Re-stock up a product
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > restock
+enter threshold you'd want to restock
+1
+enter restock amount (1-10)
+1
+ Bought 1 of farcry 4
+ ID 101: farcry 4 stock level: 1
+ Bought 1 of fifa 22
+ ID 102: fifa 22 stock level: 1
+ Bought 1 of minecraft
+ ID 105: minecraft stock level: 1
+ Bought 1 of WWE 2k17
+ ID 106: WWE 2k17 stock level: 1
+ Bought 1 of super mario 64
+ ID 107: super mario 64 stock level: 1
+ Bought 1 of forza horizon 5
+ ID 108: forza horizon 5 stock level: 1
+ Bought 1 of rocket league
+ ID 109: rocket league stock level: 1
+ Bought 1 of battlefield 2042
+ ID 110: battlefield 2042 stock level: 1
+ Bought 1 of candycrush
+ ID 111: candycrush stock level: 1
+ Bought 1 of call of duty 2
+ ID 103: ff5 stock level: 0
+********************************
+  App21-04: Stock Application 
+      by Haider Imam
+********************************
+
+    Add:        Add a new product
+    Remove:     Remove an old product
+    Print:      Print all products
+    Quit:       Quit the program
+    Buy:        Buy a product(s)
+    Sell:       Sell a product(s)
+    Search:     Searches for a product
+    lowstock: Lists stock below set amount
+    Restock:  Re-stock up a product
+Please enter your choice > 
+Your input is blank!
+
+Please enter your choice > 

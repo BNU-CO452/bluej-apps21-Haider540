@@ -1,0 +1,43 @@
+StockDemo haiderstockdemo = new StockDemo();
+
+ haider's Stock List
+ ====================
+
+ ID 101: farcry 4 stock level: 0
+ ID 102: fifa 22 stock level: 0
+ ID 103: call of duty stock level: 0
+ ID 104: warezone stock level: 0
+ ID 105: minecraft stock level: 0
+ ID 106: WWE stock level: 0
+ ID 107: super mario stock level: 0
+ ID 108: forza horizon stock level: 0
+ ID 109: rocket league stock level: 0
+ ID 110: battlefield stock level: 0
+
+Product farcry4 = new Product(101, "Farcry4");
+farcry4.print();
+ ID 101: Farcry4 stock level: 0
+farcry4.decreaseQuantity(3);
+farcry4.print();
+ ID 101: Farcry4 stock level: 0
+farcry4.decreaseQuantity(1);
+farcry4.print();
+ ID 101: Farcry4 stock level: 0
+farcry4.increaseQuantity(1);
+farcry4.print();
+ ID 101: Farcry4 stock level: 1
+farcry4.decreaseQuantity(2);
+farcry4.print();
+ ID 101: Farcry4 stock level: 1
+Product fifa22 = new Product(102, "fifa22");
+StockList haiderstocklist = new StockList();
+haiderstocklist.add(farcry4);
+haiderstocklist.add(fifa22);
+haiderstocklist.print();
+
+ haider's Stock List
+ ====================
+
+ ID 101: Farcry4 stock level: 1
+ ID 102: fifa22 stock level: 0
+

@@ -1,0 +1,73 @@
+stockDem1.runDemo();
+
+ haider's Stock List
+ ====================
+
+ ID 101: farcry 4 stock level: 8
+ ID 102: fifa 22 stock level: 8
+ ID 103: call of duty 2 stock level: 12
+ ID 104: call of duty warzone stock level: 12
+ ID 105: minecraft stock level: 16
+ ID 106: WWE 2k17 stock level: 16
+ ID 107: super mario 64 stock level: 4
+ ID 108: forza horizon 5 stock level: 4
+ ID 109: rocket league stock level: 1
+ ID 110: battlefield 2042 stock level: 4
+
+ Bought 3 of farcry 4
+ Bought 4 of fifa 22
+ Bought 6 of call of duty 2
+ Bought 7 of call of duty warzone
+ Bought 10 of minecraft
+ Bought 5 of WWE 2k17
+ Bought 3 of super mario 64
+ Bought 2 of forza horizon 5
+ Bought 1 of rocket league
+ Bought 4 of battlefield 2042
+
+ haider's Stock List
+ ====================
+
+ ID 101: farcry 4 stock level: 11
+ ID 102: fifa 22 stock level: 12
+ ID 103: call of duty 2 stock level: 18
+ ID 104: call of duty warzone stock level: 19
+ ID 105: minecraft stock level: 26
+ ID 106: WWE 2k17 stock level: 21
+ ID 107: super mario 64 stock level: 7
+ ID 108: forza horizon 5 stock level: 6
+ ID 109: rocket league stock level: 2
+ ID 110: battlefield 2042 stock level: 8
+
+ sold 1 of farcry 4
+ sold 2 of fifa 22
+ sold 3 of call of duty 2
+ sold 4 of call of duty warzone
+ sold 6 of minecraft
+ sold 1 of WWE 2k17
+ sold 2 of super mario 64
+ sold 1 of forza horizon 5
+ sold 1 of rocket league
+ sold 3 of battlefield 2042
+
+ haider's Stock List
+ ====================
+
+ ID 101: farcry 4 stock level: 10
+ ID 102: fifa 22 stock level: 10
+ ID 103: call of duty 2 stock level: 15
+ ID 104: call of duty warzone stock level: 15
+ ID 105: minecraft stock level: 20
+ ID 106: WWE 2k17 stock level: 20
+ ID 107: super mario 64 stock level: 5
+ ID 108: forza horizon 5 stock level: 5
+ ID 109: rocket league stock level: 1
+ ID 110: battlefield 2042 stock level: 5
+
+stockLis1.searchProducts("call of duty");
+ ID 103: call of duty 2 stock level: 15
+ ID 104: call of duty warzone stock level: 15
+stockLis1.stockLower5("5");
+ item Below 5 
+ ------------- 
+ ID 109: rocket league stock level: 1

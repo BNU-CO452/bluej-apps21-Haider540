@@ -1,0 +1,48 @@
+Course cybersecurity = new Course();
+Student haider22130768 = new Student();
+Module co452 = new Module("CO452", "Programming concepts");
+ModuleMark haidermodulemark = new ModuleMark(co452);
+haider22130768.addMark(haidermodulemark);
+haidermodulemark.getCredit()
+    returned int 0
+haidermodulemark.setMark(25);
+haider22130768.enrol(cybersecurity);
+cybersecurity.addModule(co452);
+cybersecurity.print();
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: 	Programming concepts	  15 creditshaider22130768.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: 	Programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!
+haider22130768.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by student name
+ ------------------------------------
+ Student ID: 22130768, Haider
+
+ Course MT1CYS1: BSc Cyber Security
+
+ CO452: 	Programming concepts	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+
+ No Final Course Grade Yet!

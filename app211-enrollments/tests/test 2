@@ -1,0 +1,36 @@
+Module C0452 = new Module("co452", "programming concepts ");
+C0452.print();
+ Module Code: co452: programming concepts 
+ Credit: 0
+
+Course cybersecurity = new Course("MT1CYS1", "cyber security");
+cybersecurity.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: MT1CYS1: cyber security
+    Exception occurred.
+C0452.print();
+ Module Code: co452: programming concepts 
+ Credit: 0
+
+C0452.print();
+ Module Code: co452: programming concepts 
+ Credit: 0
+
+cybersecurity.assignModule(C0452);
+C0452.print();
+ Module Code: co452: programming concepts 
+ Credit: 0
+
+cybersecurity.print();
+ --------------------------------
+   App211: Course Details
+ --------------------------------
+
+ Course Code: MT1CYS1: cyber security
+ Module Code: co452: programming concepts 
+ Credit: 0
+
+
