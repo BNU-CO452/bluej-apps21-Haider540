@@ -3,7 +3,7 @@
  * This class is reponsible for creating and
  * linking all the Locations in the game.
  *
- *  [library]<---->[toilet]<---->[Theatre]
+ *  [gym]<---->[toilet]<---->[Theatre]
  *                 |
  *          [front desk]<---->[car park]
  *             
